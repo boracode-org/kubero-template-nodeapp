@@ -12,6 +12,7 @@ try {
     let release = os.release();
     let loadavg = os.loadavg();
     let totalmem = os.totalmem();
+    let ron = "Rockie Barboa";
     let env = JSON.stringify(process.env, null, 4)
     /*
     app.use(
@@ -29,6 +30,7 @@ try {
         release : ${release}<p>
         loadavg : ${loadavg}<p>
         totalmem : ${totalmem}<p>
+        who's your daddy: ${ron} <p>
         <pre><code>${env}</code></pre>
         
         `)
